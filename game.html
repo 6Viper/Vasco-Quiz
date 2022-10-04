@@ -10,34 +10,42 @@
 </head>
 <body>
     
-    <section>
+   <section class="container">
+      <div id="game" class="justify-center flex-column">
+         <div id="hud">
+            <div class="hud-item">
+               <p id="progressText" class="hud-prefix">
+                  Question
+               </p>
+            </div>
+            <div class="score-area">
+               <p class="scores"> <span id="correct">0</span></p>
+               <p class="scores"> <span id="incorrect">0</span></p>
+            </div>
 
-     <div>
-        Question 1 of 5 
-        score update
-     </div>
+         <h1 id="question">
+             Which player has scored the most goals playing for Vasco da Gama?
+         </h1>
+     
+         <div class="option-container">
+           <p class="option-prefix">A</p>
+           <p class="option-text" data-number="1">Romario</p>      
+         </div>
+         <div class="option-container">
+           <p class="option-prefix">B</p>
+           <p class="option-text" data-number="2">Edmundo</p>      
+          </div>
+         <div class="option-container">
+           <p class="option-prefix">C</p>
+           <p class="option-text" data-number="3">Vava</p>      
+          </div>
+         <div class="option-container">
+           <p class="option-prefix">D</p>
+           <p class="option-text" data-number="4">Roberto Dinamite</p>      
+         </div>
 
-     <div id="question">
-        Which player has scored the most goals playing for Vasco da Gama?
-     </div>
-
-     <div class="option-container">
-        <p class="option-prefix">A</p>
-        <p class="option-text" data-number="1">Romario</p>      
-     </div>
-     <div class="option-container">
-        <p class="option-prefix">B</p>
-        <p class="option-text" data-number="2">Edmundo</p>      
-     </div>
-     <div class="option-container">
-        <p class="option-prefix">C</p>
-        <p class="option-text" data-number="3">Vava</p>      
-     </div>
-     <div class="option-container">
-        <p class="option-prefix">D</p>
-        <p class="option-text" data-number="4">Roberto Dinamite</p>      
-     </div>
-
-    </section>
+           </div>
+         </div>
+   </section>
 </body>
 </html>
