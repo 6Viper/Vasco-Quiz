@@ -1,29 +1,60 @@
 
 body {
-   background-color: aliceblue;
+   background-color: lightgray;
 }
 
 h1 {
-    font-size: large;
+    font-size: xx-large;
 }
 
 h2 {
-    font-size: large;
+    font-size: x-large;
 }
 
-h3 {
-    font-size: large;
+.container {
+    background-color: snow;
+    margin: 10% 20% 0% 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main {
-    width: auto;
-    height: auto;
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+}
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 .btn {
-    max-width: 65%;
-    height: auto;
-    max-height: 100%;
-    display: inline-block;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: lightgray;
+    border-radius: 4px;
 }
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: black;
+    transition: transform 100ms;
+    transform: scale(1.03);
+}
+
