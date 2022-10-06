@@ -1,5 +1,5 @@
 const question = document.querySelector('#question');
-const options = Array.from(document.querySelectorAll('.option-text'));
+const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('.scores');
 
@@ -12,42 +12,42 @@ let availableQuestions = []
 let questions = [
     {
         question: 'Which player has scored the most goals playing for Vasco da Gama?',
-        option1: 'Romario',
-        option2: 'Edmundo',
-        option3: 'Vava',
-        option4: 'Roberto Dinamite',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
         answer: 4,
     },
     {
-        question: 'Which player has scored the most goals playing for Vasco da Gama?',
-        option1: 'Romario',
-        option2: 'Edmundo',
-        option3: 'Vava',
-        option4: 'Roberto Dinamite',
+        question: 'Q2?',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
         answer: 4,
     },
     {
-        question: 'Which player has scored the most goals playing for Vasco da Gama?',
-        option1: 'Romario',
-        option2: 'Edmundo',
-        option3: 'Vava',
-        option4: 'Roberto Dinamite',
+        question: 'Q3?',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
         answer: 4,
     },
     {
-        question: 'Which player has scored the most goals playing for Vasco da Gama?',
-        option1: 'Romario',
-        option2: 'Edmundo',
-        option3: 'Vava',
-        option4: 'Roberto Dinamite',
+        question: 'Q4?',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
         answer: 4,
     },
     {
-        question: 'Which player has scored the most goals playing for Vasco da Gama?',
-        option1: 'Romario',
-        option2: 'Edmundo',
-        option3: 'Vava',
-        option4: 'Roberto Dinamite',
+        question: 'Q5?',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
         answer: 4,
     }
 
@@ -72,9 +72,9 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
-    options.forEach(option => {
-        const number = option.dataset['number']
-        option.innerText = currentQuestion['choice' + number]
+    choices.forEach(option => {
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice' + number]
     })
 
     availableQuestions.splice(questionsIndex, 1)
@@ -82,8 +82,8 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
-options.forEach(choice => {
-    option.addEventListener('click', e => {
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
         acceptingAnswers = false
