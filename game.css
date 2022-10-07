@@ -43,6 +43,9 @@ body {
     justify-content: space-between;
 }
 
+.hud-item-1 {
+    margin-right: -50%;
+}
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
