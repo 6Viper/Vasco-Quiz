@@ -8,6 +8,7 @@ const incorrectText = document.querySelector('#score2');
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
+let reducescore = 0
 let questionCounter = 0
 let availableQuestions = []
 
@@ -53,6 +54,7 @@ const MAX_QUESTIONS = 5
 startGame = function() {
     questionCounter = 0
     score = 0
+    reducescore = 0
     availableQuestions = [...questions]
     getNewQuestion()
 }
@@ -110,11 +112,11 @@ choices.forEach(choice => {
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
-}, 
+} 
 
 reduceScore = num => {
-    score +=num
-    incorrectText.innerText = score
+    reducescore +=num
+    incorrectText.innerText = reducescore
 }
 
 startGame()
