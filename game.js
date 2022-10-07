@@ -48,6 +48,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 1
+const INCORRECT_POINTS = 1
 const MAX_QUESTIONS = 5
 
 startGame = function() {
