@@ -48,7 +48,6 @@ let questions = [
 ]
 
 const SCORE_POINTS = 1
-const SCORE2_POINTS = 1
 const MAX_QUESTIONS = 5
 
 startGame = function() {
@@ -95,7 +94,7 @@ choices.forEach(choice => {
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         } else if(classToApply === 'incorrect') {
-            reduceScore(SCORE2_POINTS)
+            reduceScore(SCORE_POINTS)
         }    
 
         selectedChoice.parentElement.classList.add(classToApply)
@@ -111,7 +110,7 @@ choices.forEach(choice => {
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
-} 
+}, 
 
 reduceScore = num => {
     score +=num
