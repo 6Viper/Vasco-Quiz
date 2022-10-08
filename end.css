@@ -2,9 +2,14 @@ body {
     background-color: lightgray;
 }
 
+.thanks {
+    margin-bottom: -90%;
+}
 #hud {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 55vw;
 }
 
 .hud-item-1 {

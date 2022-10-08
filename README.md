@@ -25,14 +25,14 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
   - Feature to include your name before start of the game. 
   - Start button that will direct player to game page.
 
-- __The Game Options__
+- __The Game__
 
   - Game is featured with progress of questions, so player can recognize current question and how many in total.
   - A score board simle and friendly displaying player score and in the event get a question wrong a point is given to the other team. 
   - Question large and visible above choices available.
   - Choices from A to D and upon selection background color will change to green if correct option selected or red if incorrect.
 
-![Nav Bar](assets/images/navigationbar.png)
+![The Game](assets/images/)
 
 - __The Game Results__
 
