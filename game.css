@@ -41,7 +41,6 @@ body {
 #hud {
     display: flex;
     justify-content: space-between;
-
 }
 
 .hud-item-1 {
@@ -56,12 +55,13 @@ body {
     text-align: center;
 }
 
-.photo {
-    background-position: 0%;
-}
 
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
+    }
+
+    .hud-item-1 {
+        margin-right: -20%;
     }
 }

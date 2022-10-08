@@ -6,7 +6,7 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 
 ![Vasco Da Gama Fan Quiz Mockup](assets/images/mockupframe.png)
 
-[View the live project here]()
+![](assets/images/)
 
 ## Features 
 
@@ -14,18 +14,27 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 
 - __Header__
 
-  - Featured on all pages, the header will include our club logo including our name and menu to the right handside.
-  - Over half of the logo is presented as overlay to provide a consistent presence everywhere you go, reminding you who we are.
+  - Featured on all pages, the header will display our game name "Vasco Da Gama Fan QUIZ!".
+  - Header will provide clear understanding of what game are they playing.
 
-- __Navigation Bar__
+![Vasco Da Gama Fan Quiz Mockup](assets/images/mockupframe.png)
 
-  - Featured on all pages, the full responsive navigation bar always displayed on the top right includes links to the Home, Video, Gallery and Join Us page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. 
-  - The navigation bar includes a hover option underlining text to provide you a more visual friendly look and to give you a responsive idea of where are you about to click.
+- __The Game Intro__
+
+  - Question made to player if ready to start the game leading to options bellow.
+  - Feature to include your name before start of the game. 
+  - Start button that will direct player to game page.
+
+- __The Game Options__
+
+  - Game is featured with progress of questions, so player can recognize current question and how many in total.
+  - A score board simle and friendly displaying player score and in the event get a question wrong a point is given to the other team. 
+  - Question large and visible above choices available.
+  - Choices from A to D and upon selection background color will change to green if correct option selected or red if incorrect.
 
 ![Nav Bar](assets/images/navigationbar.png)
 
-- __The landing page image__
+- __The Game Results__
 
   - The landing page includes a photograph of our team in the field and who we are description providing details as since when we exist, our goals and respect to what our flag stands for. 
 
