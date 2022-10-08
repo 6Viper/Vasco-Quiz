@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 55vw;
+    width: 25vw;
 }
 
 .hud-item-1 {

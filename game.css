@@ -55,7 +55,11 @@ body {
     text-align: center;
 }
 
-
+header {
+    font-size: xx-large;
+    position: fixed;
+    margin-top: -45%;
+}
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
