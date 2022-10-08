@@ -4,6 +4,12 @@
     background-color: lightgrey;
 }
 
+header {
+    font-size: xx-large;
+    position: fixed;
+    margin-bottom: 50%;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

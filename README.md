@@ -1,108 +1,160 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vasco Da Gama Fan QUIZ!
 
-Welcome 6Viper,
+Vasco Da Gama Fan Quiz was made for the Second Project required to complete the Diploma in Full Stack Software Development program at The Code Institute and shoes to accomplish with success all requirements as well to provide the developer a great learning experience through out the process. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This Quiz intends to target Vasco da Gama fans from all around the world where fans are able to get their knowlodge and curiosities about the team checked trough a series of Questions. Each correct  answer will count a score point for you, and for each incorrect answer a point goes to the Outside Team.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Vasco Da Gama Fan Quiz Mockup](assets/images/mockupframe.png)
 
-## Gitpod Reminders
+[View the live project here]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features 
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+- __Header__
 
-Another blue button should appear to click: _Open Browser_.
+  - Featured on all pages, the header will include our club logo including our name and menu to the right handside.
+  - Over half of the logo is presented as overlay to provide a consistent presence everywhere you go, reminding you who we are.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - Featured on all pages, the full responsive navigation bar always displayed on the top right includes links to the Home, Video, Gallery and Join Us page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. 
+  - The navigation bar includes a hover option underlining text to provide you a more visual friendly look and to give you a responsive idea of where are you about to click.
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](assets/images/navigationbar.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The landing page image__
 
-To log into the Heroku toolbelt CLI:
+  - The landing page includes a photograph of our team in the field and who we are description providing details as since when we exist, our goals and respect to what our flag stands for. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Landing Page](assets/images/landingpage.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Come Join Us__
 
-------
+  - This mid section provides an invitation to join us by showing a picture of our fan club watching the game in a bar, a happy moment for our members.
+  - The user will aknowledge this invitation with a warm styling link in form of text trough out our message, we take this opportunity to also inform where we gather during the games and that it is not mandatory to consume alcohol in this location.
 
-## Release History
+![Come Join us](assets/images/comejoinus.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Video Tribute__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - Youtube video embedded to this page feature included to display the use of Iframe synthax learned in this course.
+  - A preview text above the video suggesting it's content, video would display a few footages from Vasco da Gama team trough the 80's, 90's and 2000, our Vasco Dublin members with new shirt and a tribute to a loved member who died tragically from a hit and run in Dublin. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Video](assets/images/videotribute.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __The Footer__ 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - Appearing on every page the footer section includes links through icons from "Font Awesome" to the relevant social media sites for Vasco Dublin. The links will open to a new tab to allow easy navigation for the user. 
+  - The icons should appear on centre of footer and social media it's mandatory this days, to create a better connection as well main form of news and point of contact along our form.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Footer](assets/images/footer.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __Gallery__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - The gallery will provide the user with supporting images to see more of our members, what we do, our meetings, our games as well as cool logos and flags. 
+  - Through properties such as column gaps and count learned in this course we provide a more visual friendly frame to the user. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Gallery](assets/images/gallery.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- __The Sign Up Page__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - This page will allow the user to contac us through a form feature, including name, email, mobile number, desired message and option to join us on whatsapp group.
+  - The form is grouped with fieldset tag as well as have other visual friendly and nice design features such as background color faded giving you opportunity to see flag image behind, border colors for hover option to visualy identify where you at, mandatory field setting to inform what is missing.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Contact us](assets/images/contactus.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- To have live schedule introduced for next games.
+- To introduce page designed to sell our uniforms, jackets and acessories to support charities.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing 
 
-------
+- Different browsers(Chrome, Safari and Firefox) been tested to verify that page would work with no issue as well as mobile and table devices are responsive to Media querie styles implemented.
 
-## FAQ about the uptime script
+- The project is responsive, have a good clean visual effect and is fully functional.
 
-**Why have you added this script?**
+- All features within header, main body, footer, menu been tested to confirm working properly and texts are clear and readable as well easy to understand.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Form feature works where as desired all fields with except of "sign up for whatsapp group" are mandatory and submit button is responsive.
 
-**How will this affect me?**
+## Issues and Bugs
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Wrong use of rel attribute instead of target for _blank value.
+- Embedded video link missused where forgot to remove parts of Youtube video link.
+- Forgot to commit at certain stage of process leading to "modified" or "unmarked" notifications on GitPod having to research I was missing a simple save input.
+- Gitpod blanked returning with no access to github, unable to push. A sign in from terminal or app would not work, resulting on having to open a new gitpod from github and paste changes made.
+- Issues to set up logo image properly and having to recap CSS lessons as well using codebro channel to better understand how margins and padding works.
+- Error 404 as href for "Video" was changed from id to class, issue solved.
+- Error 404 as some images had extra / on path, hence not loading.
+- Error 501 for unsupported method form, fixed.
+- Space left on jpeg files later adjusted.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Validator Testing 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](link)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](link)
+- Accessibility
+  - Accessibility confirmed by running it through lighthouse in devtools
+  ![Accessibility](assets/images/lighthouse.png)
 
-**So….?**
+## Unfixed Bugs
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+No unfixed bugs
 
-**Can I opt out?**
+## Technologies Used
+### Main language used
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Frameworks, Libraries & Programs Used
 
-**Anything more?**
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Open Sans" and "Playfair" into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on all pages of this website to import icons to the footer (social media icons) for UX purposes.
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage")
+     - GitPod was used for writing code, commiting, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing.
+- [Figma](https://www.figma.com/ "Link to Figma homepage")
+     - Figma was used to create the concept art during the design phase of the project.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+- This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"). 
+- Through Gitpod terminal I have executed commitments and pushed changes to [GitHub](https://github.com/ "Link to GitHub").
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section General, select the option "Pages".
+  - Under GitHub Pages, select Branch from "None" to "main".
+  - Once selected "main" push the save option, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-Happy coding!
+The live link can be found here - https://6viper.github.io/Vasco-Dublin/
+
+## Credits 
+
+### Content 
+
+- The text for the Home page was provided by myself and members of the Vasco Dublin Fan Club.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home page, gallery, sign up page and logos are from Vasco Dublin whatsapp group or Instagram page.
+- The Video used for this Tribute is from Vasco Dublin Youtube channel.
+
+### Code 
+This has been the most learning experience trough out this course so far, where the developer have used several sites and channels to better understand codes been used and how it properly works. Several learning projects reviewed such as Coffee House, Running project, Readme file ideas from Running project, samples from Coding Club and Survival Guild. Links bellow:
+
+- [Code Institue videos](https://learn.codeinstitute.net/dashboard "Link to Code institute dashboard")
+- [Love Running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md "Link to Running Project Readme.md")
+- [Survival Guild](https://github.com/Irishbecky91/survival-guild/blob/main/README.md#Issues-and-Bugs "Link to Survival Guild")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bro Code](https://www.youtube.com/c/BroCodez "Link to Bro Code Youtube Channel")
