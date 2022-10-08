@@ -3,18 +3,19 @@ body {
 }
 
 .thanks {
-    margin-bottom: -90%;
+    margin-top: 160%;
 }
 #hud {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
     position: fixed;
-    width: 25vw;
+    height: 25vw;
 }
 
-.hud-item-1 {
-    margin-right: -50%;
-}
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
@@ -26,7 +27,5 @@ body {
 
 
 @media screen and (max-width: 768px) {
-    .hud-item-1 {
-        margin-right: -20%;
-    }
+
 }

@@ -14,12 +14,12 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
-        answer: 2,
+        question: 'Which player has scored the most goals playing for Vasco da Gama?',
+        choice1: 'Romario',
+        choice2: 'Edmundo',
+        choice3: 'Vava',
+        choice4: 'Roberto Dinamite',
+        answer: 4,
     },
     {
         question:
