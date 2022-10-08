@@ -40,6 +40,10 @@ h1 {
     align-items: center;
 }
 
+#username {
+    background: lightgray;
+}
+
 .btn {
     font-size: 2.4rem;
     padding: 2rem 0;
@@ -48,8 +52,8 @@ h1 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: black;
-    background: rgb(45, 109, 211);
-    border-radius: 4px;
+    background: lightblue;
+    border-style: hidden;
 }
 
 .btn:hover {
