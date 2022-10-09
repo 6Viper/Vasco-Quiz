@@ -28,21 +28,21 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 - __The Game__
 
   - Game is featured with progress of questions, so player can recognize current question and how many in total.
-  - A score board simle and friendly displaying player score and in the event get a question wrong a point is given to the other team. 
-  - Question large and visible above choices available.
+  - A score board simple and friendly displaying player score and in the event get a question wrong a point is given to the other team. 
+  - Random question large and visible above choices available.
   - Choices from A to D and upon selection background color will change to green if correct option selected or red if incorrect.
 
 ![The Game](assets/images/)
 
-- __The Game Results__
+- __The Game Ends__
 
-  - The landing page includes a photograph of our team in the field and who we are description providing details as since when we exist, our goals and respect to what our flag stands for. 
+  - The game ends and Player have the options to go back to main page and enter a new name as well to play again, or to go straight into another game. We also thank player for playing this special game.  
 
-![Landing Page](assets/images/landingpage.png)
+![Last Page](assets/images/)
 
-- __Come Join Us__
+- __Features Left to Implement__
 
-  - This mid section provides an invitation to join us by showing a picture of our fan club watching the game in a bar, a happy moment for our members.
+  - I would like to add a ranking feature based on names, so can players get a bit competitive and show more insteresting on team knowledge.
   - The user will aknowledge this invitation with a warm styling link in form of text trough out our message, we take this opportunity to also inform where we gather during the games and that it is not mandatory to consume alcohol in this location.
 
 ![Come Join us](assets/images/comejoinus.png)
