@@ -43,52 +43,18 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 - __Features Left to Implement__
 
   - I would like to add a ranking feature based on names, so can players get a bit competitive and show more insteresting on team knowledge.
-  - The user will aknowledge this invitation with a warm styling link in form of text trough out our message, we take this opportunity to also inform where we gather during the games and that it is not mandatory to consume alcohol in this location.
+  - I would like to add sound to correct questions as similar to scoring a goal.
 
-![Come Join us](assets/images/comejoinus.png)
-
-- __Video Tribute__
-
-  - Youtube video embedded to this page feature included to display the use of Iframe synthax learned in this course.
-  - A preview text above the video suggesting it's content, video would display a few footages from Vasco da Gama team trough the 80's, 90's and 2000, our Vasco Dublin members with new shirt and a tribute to a loved member who died tragically from a hit and run in Dublin. 
-
-![Video](assets/images/videotribute.png)
-
-- __The Footer__ 
-
-  - Appearing on every page the footer section includes links through icons from "Font Awesome" to the relevant social media sites for Vasco Dublin. The links will open to a new tab to allow easy navigation for the user. 
-  - The icons should appear on centre of footer and social media it's mandatory this days, to create a better connection as well main form of news and point of contact along our form.
-
-![Footer](assets/images/footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see more of our members, what we do, our meetings, our games as well as cool logos and flags. 
-  - Through properties such as column gaps and count learned in this course we provide a more visual friendly frame to the user. 
-
-![Gallery](assets/images/gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to contac us through a form feature, including name, email, mobile number, desired message and option to join us on whatsapp group.
-  - The form is grouped with fieldset tag as well as have other visual friendly and nice design features such as background color faded giving you opportunity to see flag image behind, border colors for hover option to visualy identify where you at, mandatory field setting to inform what is missing.
-
-![Contact us](assets/images/contactus.png)
-
-### Features Left to Implement
-
-- To have live schedule introduced for next games.
-- To introduce page designed to sell our uniforms, jackets and acessories to support charities.
 
 ## Testing 
 
 - Different browsers(Chrome, Safari and Firefox) been tested to verify that page would work with no issue as well as mobile and table devices are responsive to Media querie styles implemented.
 
-- The project is responsive, have a good clean visual effect and is fully functional.
+- The project is responsive, have a good, simple and clean visual effect and is fully functional.
 
-- All features within header, main body, footer, menu been tested to confirm working properly and texts are clear and readable as well easy to understand.
+- All features within main body have been tested to confirm working properly and texts are clear and readable as well easy to understand.
 
-- Form feature works where as desired all fields with except of "sign up for whatsapp group" are mandatory and submit button is responsive.
+- Correct or incorrect answers will be displayed as well tracking question or score functional, Player .
 
 ## Issues and Bugs
 
