@@ -13,7 +13,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    height: 25vw;
+    height: 5vw;
 }
 
 .hud-prefix {

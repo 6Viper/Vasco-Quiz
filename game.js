@@ -3,7 +3,7 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const incorrectText = document.querySelector('#score2');
-const username = document.querySelector('#username')
+
 
 let currentQuestion = {}
 let acceptingAnswers = true

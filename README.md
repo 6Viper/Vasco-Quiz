@@ -50,23 +50,15 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 
 - Different browsers(Chrome, Safari and Firefox) been tested to verify that page would work with no issue as well as mobile and table devices are responsive to Media querie styles implemented.
 
-- The project is responsive, have a good, simple and clean visual effect and is fully functional.
+- The project is responsive, have a good, simple and clean visual effect and is fully functional with correct results.
 
 - All features within main body have been tested to confirm working properly and texts are clear and readable as well easy to understand.
 
-- Correct or incorrect answers will be displayed as well tracking question or score functional, Player .
+- Correct or incorrect answers will be displayed as well tracking question or score functions.
 
 ## Issues and Bugs
 
-- Wrong use of rel attribute instead of target for _blank value.
-- Embedded video link missused where forgot to remove parts of Youtube video link.
-- Forgot to commit at certain stage of process leading to "modified" or "unmarked" notifications on GitPod having to research I was missing a simple save input.
-- Gitpod blanked returning with no access to github, unable to push. A sign in from terminal or app would not work, resulting on having to open a new gitpod from github and paste changes made.
-- Issues to set up logo image properly and having to recap CSS lessons as well using codebro channel to better understand how margins and padding works.
-- Error 404 as href for "Video" was changed from id to class, issue solved.
-- Error 404 as some images had extra / on path, hence not loading.
-- Error 501 for unsupported method form, fixed.
-- Space left on jpeg files later adjusted.
+- 
 
 ## Validator Testing 
 
@@ -77,6 +69,8 @@ This Quiz intends to target Vasco da Gama fans from all around the world where f
 - Accessibility
   - Accessibility confirmed by running it through lighthouse in devtools
   ![Accessibility](assets/images/lighthouse.png)
+- JSHint
+  - Test made with Js presented no issues  [(Jigsaw) validator](link)
 
 ## Unfixed Bugs
 
@@ -87,6 +81,7 @@ No unfixed bugs
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+- [JS](https://en.wikipedia.org/wiki/JavaScript "Link to JS Wiki")
 
 ### Frameworks, Libraries & Programs Used
 
@@ -111,25 +106,23 @@ No unfixed bugs
   - Under GitHub Pages, select Branch from "None" to "main".
   - Once selected "main" push the save option, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://6viper.github.io/Vasco-Dublin/
+The live link can be found here - https://6viper.github.io/
 
 ## Credits 
 
 ### Content 
 
-- The text for the Home page was provided by myself and members of the Vasco Dublin Fan Club.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the Home page was provided by myself and Vasco da Gama facts checked from general websites.
 
 ### Media
 
-- The photos used on the home page, gallery, sign up page and logos are from Vasco Dublin whatsapp group or Instagram page.
-- The Video used for this Tribute is from Vasco Dublin Youtube channel.
+- 
 
 ### Code 
-This has been the most learning experience trough out this course so far, where the developer have used several sites and channels to better understand codes been used and how it properly works. Several learning projects reviewed such as Coffee House, Running project, Readme file ideas from Running project, samples from Coding Club and Survival Guild. Links bellow:
+This has been the most challeging so far, where the developer have used several sites and channels to better understand codes been used and how it properly works. Several learning projects reviewed such as Love-maths, Running project, Readme file ideas from Running project and Vasco Dublin, samples from Coding Club and Survival Guild. Links bellow:
 
 - [Code Institue videos](https://learn.codeinstitute.net/dashboard "Link to Code institute dashboard")
-- [Love Running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md "Link to Running Project Readme.md")
-- [Survival Guild](https://github.com/Irishbecky91/survival-guild/blob/main/README.md#Issues-and-Bugs "Link to Survival Guild")
+- [Love Maths](https://github.com/6Viper/love-maths "Link to Love Maths")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 - [Bro Code](https://www.youtube.com/c/BroCodez "Link to Bro Code Youtube Channel")
+- [Six Minutes. Smarter.](https://www.youtube.com/c/RalphPhillips73 "Link to Six Minutes. Smarter. Youtube Channel")   
